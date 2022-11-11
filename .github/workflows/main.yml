@@ -15,7 +15,7 @@ jobs:
     steps:
       -  name:  "test github"
          run: pwd
-      -  name:  "test github"
-         run: echo rawan
+      -  name:  "print folder "
+         run: ls
 
 
