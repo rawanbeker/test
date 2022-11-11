@@ -1,1 +1,21 @@
+on: 
+  push:
+    branches:
+      - master
+
+
+
+
+
+jobs:
+  build:
+    runs-on:  ubuntu-lastest
+      
+      
+    steps:
+      -  name:  "test github"
+         run: pwd
+      -  name:  "test github"
+         run: echo rawan
+
 
