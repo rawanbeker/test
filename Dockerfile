@@ -6,4 +6,4 @@ WORKDIR /src/java
 
 RUN ["javac","Rawan.java"]
 
-ENTERYPOINT ["java","Rawan.java"]
+CMD ["java","Rawan.java"]
