@@ -12,11 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'print folder'
-        run: ls
+       - uses: actions/checkout@v3
+
+      - name: 'login to docker hub'
+        run: docker login --username rawanbaker --password dckr_pat_BJSUPByUed4-EsoYPz39TIZ5VFU
         
-      - uses: actions/checkout@v3
-
-
-      - name: 'print folder'
-        run: ls
+      
